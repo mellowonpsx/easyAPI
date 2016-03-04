@@ -1,5 +1,5 @@
 {
-  "name": "easyAPI",
+  "name": "easy-api",
   "version": "0.0.1",
   "description": "Develop an easy api for a job interview",
   "main": "index.js",
@@ -8,8 +8,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mellowonpsx/easyAPI"
+    "url": "git+https://github.com/mellowonpsx/easyAPI.git"
   },
   "author": "mellowonpsx",
-  "license": "Apache-2.0"
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/mellowonpsx/easyAPI/issues"
+  },
+  "homepage": "https://github.com/mellowonpsx/easyAPI#readme",
+  "dependencies": {
+    "hapi": "^13.0.0",
+    "node-foursquare": "^0.3.0"
+  },
+  "devDependencies": {}
 }
